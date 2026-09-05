@@ -22,7 +22,7 @@ jobs:
       - name: Terraform Init, Plan
         run: |
           terraform init
-          terraform plan -input=false
+          terraform plan 
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
